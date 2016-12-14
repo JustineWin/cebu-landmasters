@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <title>Cebu Landmasters</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <link rel="shortcut icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+</head>
+<body>
+  <ul class="menu main-nav" data-responsive-menu="drilldown md-dropdown" style="width: 100%">
+    <ul> <a href="/"><img class="img-responsive" src="assets/img/Logo-wcap.png" alt=""/></a></ul>
+    <ul>
+      <li><a class="active" href="/profile.html">Profile</a></li>
+      <li><a a="a" href="/projects.html" id="projects-link">Projects</a>
+        <ul class="menu">
+          <li><a a="a" href="/projects.html" id="projects-link">Condominium</a>
+            <ul class="menu">
+              <li><a href="/specific-property.html">Base Line Center</a></li>
+              <li><a href="/specific-property.html">Casa Mira Towers</a></li>
+              <li><a href="/specific-property.html">Mesaverte Residences</a></li>
+            </ul>
+          </li>
+          <li><a a="a" href="/projects.html" id="projects-link">Subdivision</a>
+            <ul class="menu">
+              <li><a href="/specific-property.html">Casa Mira South</a></li>
+              <li><a href="/specific-property.html">Casa Mira Linao</a></li>
+              <li><a href="/specific-property.html">Velmiro Heights</a></li>
+              <li><a href="/specific-property.html">Villa Casita</a></li>
+              <li><a href="/specific-property.html">Midori Plains</a></li>
+            </ul>
+          </li>
+          <li><a a="a" href="/projects.html" id="projects-link">Offices</a>
+            <ul class="menu">
+              <li><a href="/specific-property.html">Park Centrale</a></li>
+              <li><a href="/specific-property.html">Baseline Center</a></li>
+              <li><a href="/specific-property.html">Baseline HQ</a></li>
+            </ul>
+          </li>
+          <li><a a="a" href="/projects.html" id="projects-link">Hotel</a>
+            <ul class="menu">
+              <li><a href="/specific-property.html">Citadines Cebu City</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="/construction-updates.html">Construction Updates</a></li>
+      <li><a href="/news.html">News</a></li>
+      <li><a href="/">Investor Relations</a></li>
+      <li><a href="/careers.html">Careers</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+      <li><a href="mailto:darrell@cebulandmasters.com"><i class="fa fa-envelope"></i></a></li>
+      <li class="show-for-sm-only" id="search-mobile">
+        <input type="text" placeholder="Search" id="submit-search"/>
+      </li>
+      <li id="toggle-search"><a href="#"><i class="fa fa-search"></i></a></li>
+      <li><a href="#" id="toggle-nav"><i class="fa fa-lg fa-reorder"></i></a></li>
+    </ul>
+  </ul>
+  <div class="search-bar"><i class="fa fa-search"></i>
+    <input type="text" placeholder="Search"/>
+  </div>
+  <div class="row expanded">
+    <div class="row expanded page-name">
+      <nav aria-label="You are here:" role="navigation">
+        <ul class="breadcrumbs">
+          <li class="hide-for-sm-only"><a href="/projects.html#condominium">Condominium</a></li>
+          <li class="disabled hide-for-sm-only">Premiere</li>
+          <li class="current"><span class="show-for-sr">Current: </span> Casa Mira</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row expanded page-property-name">
+      <div class="sm-10 md-6 lg-9 col prop-info"><span><img src="assets/img/logo-casamirasouth.png" alt=""/></span><span class="ml10">
+          <p class="prop-name">Casa Mira South</p>
+          <p class="prop-loc">Barangay Langtad, Naga, Cebu</p></span></div>
+      <div class="sm-12 md-6 lg-3 col prop-btn hide-for-sm-only"><a class="round-btn --gray" id="contact-agent-btn">Contact an Agent</a><a class="round-btn --green" id="map-btn">Show Map</a></div>
+      <div class="sm-2 md-6 lg-3 col prop-btn show-for-sm-only"><a class="round-btn --gray --small" href="">&#xf095;</a><a class="round-btn --green --small" href="">&#xf279;</a></div>
+    </div>
+    <div class="row expanded">
+      <div class="section-banner specific-property">
+        <div class="contact-agent">
+          <div class="agent-card --contact"><span class="img"><img class="img-responsive" src="assets/img/agent.png" alt=""/></span><span class="info"><a id="close-agent-btn">&#xf00d;</a>
+              <p class="name">Gibb L. Paras</p>
+              <p class="position">SALES OFFICER</p><span class="contact">
+                <p class="tel"> +63 (32) 318-6485</p>
+                <p class="cel"> +63 (917) 317-9238</p></span></span></div>
+        </div>
+        <div class="map-card"><img class="img-responsive" src="assets/img/Banner-map.png" alt=""/></div>
+      </div>
+    </div>
+    <div class="row semi-expanded tab-group">
+      <div class="md-3 col side-tab hide-for-sm-only">
+        <ul class="tabs vertical" id="projects-tab" data-tabs="">
+          <li class="tabs-title"><a>&nbsp;</a></li>
+          <li class="tabs-title is-active"><a href="#overview" aria-selected="true">Project Overview</a></li>
+          <li class="tabs-title"><a href="#location">Location & Vicinity</a></li>
+          <li class="tabs-title"><a href="#gallery">Photo & Video Gallery</a></li>
+          <li class="tabs-title"><a href="#floor-plan">Perspective & Floor Plans </a></li>
+          <li class="tabs-title"><a href="#amenities">Amenities & Facilities </a></li>
+          <li class="tabs-title"><a href="#updates">Construction Updates</a></li>
+          <li class="tabs-title"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sm-12 col top-tab show-for-sm-only mt10">
+        <ul class="tabs" id="projects-tab" data-tabs="">
+          <li class="tabs-title is-active"><a href="#overview" aria-selected="true">Project Overview</a></li>
+          <li class="tabs-title"><a href="#location">Location & Vicinity</a></li>
+          <li class="tabs-title"><a href="#gallery">Photo & Video Gallery</a></li>
+          <li class="tabs-title"><a href="#floor-plan">Perspective & Floor Plans </a></li>
+          <li class="tabs-title"><a href="#amenities">Amenities & Facilities </a></li>
+          <li class="tabs-title"><a href="#updates">Construction Updates </a></li>
+          <li class="tabs-title"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sm-12 md-9 col collapse side-tab-content ms-0">
+        <div class="tabs-content vertical" data-tabs-content="projects-tab">
+          <div class="tabs-panel is-active" id="overview">
+            <div class="row">
+              <div class="sm-12 col">
+                <h1>Project Overview</h1>
+                <h3 class="mt40">MASTERPLAN</h3>
+                <p class="mt20">Cebu Landmasters, Inc. is a home-grown real estate development company in Cebu. The company is engaged in the development of residential, commercial, hospitality, mixed-use and civic projects. Our company was established in 2003 in the wonderful queen city of the south founded by a true blooded Cebuano entrepreneur. Guided by sincere family values, genuine real estate passion and unrelenting faith, the company is highly committed to its customers and community.</p>
+              </div>
+            </div>
+            <div class="sm-12 col specific-stat-section sm-collapse">
+              <div class="sm-12 md-12 lg-5 col specific-prop-stat">
+                <p class="info">Barangay Langtad, Naga, Cebu</p>
+                <p class="stat"> LOCATION</p>
+              </div>
+              <div class="sm-12 md-12 lg-2 col specific-prop-stat">
+                <p class="info">32 hectare</p>
+                <p class="stat"> TOTAL LAND AREA</p>
+              </div>
+              <div class="sm-12 md-12 lg-2 col specific-prop-stat">
+                <p class="info">3</p>
+                <p class="stat"> PHASES</p>
+              </div>
+              <div class="sm-12 md-12 lg-2 col specific-prop-stat">
+                <p class="info">Status</p>
+                <p class="stat"> STATUS</p>
+              </div>
+            </div>
+            <div class="sm-12 col sm-collapse">
+              <div class="sm-12 md-6 lg-4 col sm-collapse">
+                <h3>PHASE 1: 1007 units</h3>
+                <p>1A: 342 units</p>
+                <p>1B: 665 units</p>
+              </div>
+              <div class="sm-12 md-6 lg-4 col sm-collapse">
+                <h3>PHASE 2: 962 units</h3>
+                <p>2A: 524 units</p>
+                <p>2B: 438 units</p>
+              </div>
+              <div class="sm-12 md-6 lg-3 col sm-collapse end">
+                <h3>PHASE 3  </h3>
+                <p>TBA</p>
+              </div>
+            </div>
+            <div class="sm-12 col mt40 sm-collapse"><img class="img-responsive" src="assets/img/CasaMira1.png" alt=""/><img class="img-responsive" src="assets/img/CasaMira2.png" alt=""/></div>
+            <div class="row">
+              <div class="sm-12 col sm-collapse mt40">
+                <h3>Share </h3>
+                <div class="share-btn-group"><a href=""><i class="fa fa-facebook"></i></a><a href=""><i class="fa fa-twitter"></i></a><a href=""><i class="fa fa-envelope"></i></a></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sm-12 col sm-collapse mt40">
+                <h3>Related Properties</h3>
+                <div class="row sm-up-1 md-up-2 lg-up-3 property-section mt40">
+                  <div class="col"><a class="property-block" href="/specific-property.html"><span class="img property-1"><img class="img-responsive prop-logo" src="assets/img/logo-velmiro.png" alt=""/></span><span class="info">
+                        <p class="prop-name">Asia Premiere </p>
+                        <ul class="prop-features">
+                          <li><i class="fa fa-area-chart"></i>
+                            <p>32 hectares</p>
+                          </li>
+                          <li><i class="fa fa-square"></i>
+                            <p>3 phases</p>
+                          </li>
+                          <li><i class="fa fa-info"></i>
+                            <p>On going</p>
+                          </li>
+                          <li><i class="fa fa-map-marker"></i>
+                            <p>Baranga2 lg-up-3.Langtad, Naga Cebu</p>
+                          </li>
+                        </ul></span></a></div>
+                  <div class="col"><a class="property-block" href="/specific-property.html"><span class="img property-2"><img class="img-responsive prop-logo" src="assets/img/logo-velmiro.png" alt=""/></span><span class="info">
+                        <p class="prop-name">Baseline Residences </p>
+                        <ul class="prop-features">
+                          <li><i class="fa fa-area-chart"></i>
+                            <p>32 hectares</p>
+                          </li>
+                          <li><i class="fa fa-square"></i>
+                            <p>3 phases</p>
+                          </li>
+                          <li><i class="fa fa-info"></i>
+                            <p>On going</p>
+                          </li>
+                          <li><i class="fa fa-map-marker"></i>
+                            <p>Barangay Langtad, Naga Cebu</p>
+                          </li>
+                        </ul></span></a></div>
+                  <div class="col"><a class="property-block" href="/specific-property.html"><span class="img property-3"><img class="img-responsive prop-logo" src="assets/img/logo-velmiro.png" alt=""/></span><span class="info">
+                        <p class="prop-name">Baseline Residences </p>
+                        <ul class="prop-features">
+                          <li><i class="fa fa-area-chart"></i>
+                            <p>32 hectares</p>
+                          </li>
+                          <li><i class="fa fa-square"></i>
+                            <p>3 phases</p>
+                          </li>
+                          <li><i class="fa fa-info"></i>
+                            <p>On going</p>
+                          </li>
+                          <li><i class="fa fa-map-marker"></i>
+                            <p>Barangay Langtad, Naga Cebu</p>
+                          </li>
+                        </ul></span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="location">
+            <div class="row">
+              <div class="sm-12 col">
+                <h1>Location & Vicinity</h1>
+                <p class="mt20">We are located at Barangay Langtad, Naga, Cebu. Just 14 kms away or 30 minutes via car from the South Road Properties.</p><img class="img-responsive" src="assets/img/location-casa-mira-south.jpg" alt=""/>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="gallery">
+            <h1>Photo & Video Gallery</h1>
+            <div class="row sm-up-1 md-up-2 lg-up-3">
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople1.png" alt=""/></div>
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople2.png" alt=""/></div>
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople3.png" alt=""/></div>
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople4.png" alt=""/></div>
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople5.png" alt=""/></div>
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople6.png" alt=""/></div>
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople7.png" alt=""/></div>
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople8.png" alt=""/></div>
+              <div class="col"><img class="img-responsive" src="assets/img/OurPeople9.png" alt=""/></div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="floor-plan">
+            <div class="row">
+              <h1>Perspective & Floor Plans</h1>
+              <div class="sm-12 col mt40 sm-collapse"><img class="img-responsive" src="assets/img/CasaMira1.png" alt=""/><img class="img-responsive" src="assets/img/CasaMira2.png" alt=""/></div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="amenities">
+            <div class="row">
+              <div class="sm-12 col">
+                <h1>Amenities & Facilities</h1>
+                <ul class="spaced-list">
+                  <li>Grand Entrance</li>
+                  <li>2 Entrances with Guardhouse</li>
+                  <li>Main Amenity Area
+                    <ul>
+                      <li>Drop-off Pavilion</li>
+                      <li>Grand Community Clubhouse
+                        <ul>
+                          <li>Retail Area</li>
+                          <li>Function Room</li>
+                        </ul>
+                      </li>
+                      <li>Adult & Kiddie Pool</li>
+                      <li>Multi-purpose Court</li>
+                    </ul>
+                  </li>
+                  <li>Two Secondary Amenity Areas
+                    <ul>
+                      <li>Pavilion</li>
+                      <li>Multi-purpose Court</li>
+                      <li>Retail Area</li>
+                    </ul>
+                  </li>
+                  <li>Chapel with Function Hall</li>
+                  <li>Landscape Parks & Open Spaces</li>
+                  <li>Street Lighting</li>
+                  <li>Perimeter Fence</li>
+                  <li>Overhead Water Tank</li>
+                  <li>Sewage Treatment Facility</li>
+                  <li>Material Recovery Facility</li>
+                  <li>20 meter wide main road</li>
+                  <li>24 Hour Security</li>
+                  <li>Property Management Services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="updates">
+            <div class="row">
+              <h1>Construction Updates</h1>
+            </div>
+            <div class="row sm-up-1 md-up-3 update-section mt20">
+              <div class="col">
+                <div class="update-block"><span class="img update-1"><img class="img-responsive prop-logo" src="assets/img/logo-velmiro.png" alt=""/></span><span class="info">
+                    <p class="release-date">AUGUST 2016</p><a class="prop-name" href="/specific-construction.html">Velmiro Heights </a>
+                    <p class="date">September 19, 2016</p></span></div>
+              </div>
+              <div class="col">
+                <div class="update-block"><span class="img update-2"><img class="img-responsive prop-logo" src="assets/img/logo-velmiro.png" alt=""/></span><span class="info">
+                    <p class="release-date">AUGUST 2016</p><a class="prop-name" href="/specific-construction.html">Velmiro Heights </a>
+                    <p class="date">September 19, 2016</p></span></div>
+              </div>
+              <div class="col">
+                <div class="update-block"><span class="img update-3"><img class="img-responsive prop-logo" src="assets/img/logo-velmiro.png" alt=""/></span><span class="info">
+                    <p class="release-date">AUGUST 2016</p><a class="prop-name" href="/specific-construction.html">Velmiro Heights </a>
+                    <p class="date">September 19, 2016</p></span></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sm-12 col sm-collapse mt40">
+                <h3>Share </h3>
+                <div class="share-btn-group"><a href=""><i class="fa fa-facebook"></i></a><a href=""><i class="fa fa-twitter"></i></a><a href=""><i class="fa fa-envelope"></i></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="contact">
+            <div class="row">
+              <h1>Contact Us</h1>
+              <h3 class="mt40">CONTACT AN AGENT</h3>
+            </div>
+            <div class="row">
+              <div class="xs-12 md-6 col agent-card"><span class="img"><img class="img-responsive" src="assets/img/agent.png" alt=""/></span><span class="info">
+                  <p class="name">Gibb L. Paras</p>
+                  <p class="position">SALES OFFICER</p><span class="contact">
+                    <p class="tel"> +63 (32) 318-6485</p>
+                    <p class="cel"> +63 (917) 317-9238</p></span></span></div>
+            </div>
+            <div class="row mt40">
+              <h3>SEND US A MESSAGE</h3>
+            </div>
+            <div class="row">
+              <form class="mt20">
+                <div class="row flex --col">
+                  <div class="sm-12 lg-6 col text-input">
+                    <label>FIRST NAME
+                      <input type="text" placeholder=""/>
+                    </label>
+                  </div>
+                  <div class="sm-12 lg-6 col text-input">
+                    <label>LAST NAME
+                      <input type="text" placeholder=""/>
+                    </label>
+                  </div>
+                  <div class="sm-12 lg-6 col text-input">
+                    <label>EMAIL
+                      <input type="email" placeholder=""/>
+                    </label>
+                  </div>
+                  <div class="sm-12 lg-6 col text-input">
+                    <label>CONTACT NUMBER
+                      <input type="text" placeholder=""/>
+                    </label>
+                  </div>
+                  <div class="sm-12 lg-6 col text-input">
+                    <label>MESSAGE
+                      <textarea></textarea>
+                    </label>
+                  </div>
+                  <div class="sm-12 lg-6 col text-input"><a class="button form-btn float-right" href="about.html">SEND</a></div>
+                </div>
+              </form>
+            </div>
+            <div class="row">
+              <h3>Share </h3>
+              <div class="share-btn-group"><a href=""><i class="fa fa-facebook"></i></a><a href=""><i class="fa fa-twitter"></i></a><a href=""><i class="fa fa-envelope"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer"><span>
+      <p>© 2016 Cebu Landmasters</p></span><span>
+      <ul>
+        <li class="flex -row -center">
+          <p>&#xf098; (032) 231-4870</p>
+        </li>
+        <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href=""><i class="fa fa-envelope-square"></i></a></li>
+      </ul></span></div>
+  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/vendor/foundation.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    $(document).foundation();
+    
+  </script>
+  <script>var elem = new Foundation.Tabs(element, options);</script>
+</body>
